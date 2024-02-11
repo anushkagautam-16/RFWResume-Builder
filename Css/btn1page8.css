@@ -1,0 +1,94 @@
+.textarea {
+  width: 500px;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 20px;
+  resize:none;
+}
+html.f-frttl .editor-wrapper .editor-header {
+  background: #fff;
+  border-top: 1px solid #ddd;
+  position: absolute;
+  top: auto;
+  left: auto;
+  width: 100%;
+  bottom: 0;
+  padding: 9px 0 6px 10px;
+  z-index: 10;
+}
+.editor-wrapper .editor-header {
+  padding: 11px;
+  display: -ms-flexbox;
+  display: flex;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  transition: color 0.2s, background-color .25s, border-color .5s, opacity .25s;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+user agent stylesheet
+header {
+  display: block;
+}
+
+
+.container {
+  width: 20%;
+  height:350px;
+  margin:30px;
+  padding:50px;
+  border: solid black 1px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  
+    }
+.row.container.scroller.example-item{
+     background-color:whitesmoke;
+     overflow-y:scroll;
+     margin-left: 100px;
+}
+.container.example-item{
+    text-align:left;
+    margin:5px;
+    padding:5px;
+    width:90%;
+}
+.container.col6{
+         background-color:white;
+         margin-left:100px;
+}
+
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+                                           

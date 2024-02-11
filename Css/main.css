@@ -1,0 +1,14 @@
+html{height: 100%;}
+
+
+/*----------------------Body-------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   padding-left: 20px;
+   padding-right: 20px;
+}

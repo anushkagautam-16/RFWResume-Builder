@@ -1,0 +1,123 @@
+body {
+                                             margin: 0;
+                                             margin-top: 45px;
+                                           }
+                                           
+                                           .adminnav {
+                                             width: 100%;
+                                             position: fixed;
+                                             height: 45px;
+                                             top: 0;
+                                             background-color: aliceblue;
+                                           }
+                                           
+                                           .social {
+                                             float: left;
+                                             height: 100%;
+                                             width: 45%;
+                                             background-color: aliceblue;
+                                           }
+                                           .social img {
+                                             margin: 5px 5px;
+                                           }
+                                           .adminname {
+                                             width: 10%;
+                                             float: left;
+                                             height: 100%;
+                                           }
+                                           .adminname pre {
+                                             font-size: medium;
+                                           }
+                                           .srchlog {
+                                             width: 45%;
+                                             height: 100%;
+                                             float: right;
+                                             background-color: aliceblue;
+                                           }
+                                           .srchbar {
+                                             float: left;
+                                             height: 100%;
+                                             padding: 9px 0px;
+                                             margin-left: 47%;
+                                           }
+                                           .srchform {
+                                             width: 100%;
+                                             height: 100%;
+                                           }
+                                           #srchInput {
+                                             border-top: none;
+                                             border-left: none;
+                                             border-right: none;
+                                             border-color: rgb(95, 169, 235);
+                                             border-radius: 7px;
+                                             height: 25px;
+                                             padding: 0px 15px;
+                                           }
+                                           .logoutdiv {
+                                             float: right;
+                                             padding: 7px 20px;
+                                           }
+                                           
+                                           .logoutbtn {
+                                             background-color: rgb(95, 169, 235);
+                                             border: none;
+                                             border-radius: 7px;
+                                             height: 30px;
+                                             width: 74px;
+                                             color: white;
+                                           }
+                                           
+                                           .sidebar {
+                                             margin: 0;
+                                             padding: 0;
+                                             width: 15%;
+                                             background-color: aliceblue;
+                                             position: fixed;
+                                             height: 100%;
+                                             overflow: auto;
+                                           }
+                                           
+                                           .sidebar a {
+                                             display: block;
+                                             color: black;
+                                             padding: 16px;
+                                             text-decoration: none;
+                                           }
+                                           
+                                           .sidebar a.active {
+                                             background-color: rgb(95, 169, 235);
+                                             color: white;
+                                           }
+                                           
+                                           .sidebar a:hover:not(.active) {
+                                             background-color: rgb(95, 169, 235);
+                                             color: white;
+                                           }
+                                           
+                                           div.content {
+                                             margin-left: 200px;
+                                             padding: 1px 16px;
+                                             height: 1000px;
+                                           }
+                                           
+                                           @media screen and (max-width: 700px) {
+                                             .sidebar {
+                                               width: 100%;
+                                               height: auto;
+                                               position: relative;
+                                             }
+                                             .sidebar a {
+                                               float: left;
+                                             }
+                                             div.content {
+                                               margin-left: 0;
+                                             }
+                                           }
+                                           
+                                           @media screen and (max-width: 400px) {
+                                             .sidebar a {
+                                               text-align: center;
+                                               float: none;
+                                             }
+                                           }
+                                           

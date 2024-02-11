@@ -1,0 +1,14 @@
+.content1{
+    text-align: center;
+    text-decoration: none;
+    display:none;
+    position: absolute;
+
+}
+
+.content1 img{
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    
+}

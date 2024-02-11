@@ -1,0 +1,82 @@
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 60px;
+    margin: auto;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  div {
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+  
+  }
+  
+  .ex2 {
+   height:700px;
+    padding:10px;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 30px;
+   
+
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: rgb(84, 175, 235);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: rgb(197, 192, 192);
+    color: black;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signinbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 10px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signinbtn {
+       width: 100%;
+    }
+  }

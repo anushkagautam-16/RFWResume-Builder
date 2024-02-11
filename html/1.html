@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .idealcheckoutminitix {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="input-group input-radio input-field-workshop_wenst_u_een_factuur">
+        <label for="workshop_wenst_u_een_factuur">
+            Wenst u een factuur?
+        </label>
+        <span class="input-group">
+            <input class="workshop_wenst_u_een_factuur" name="workshop_wenst_u_een_factuur"
+                value="Ik heb geen factuur nodig." checked="checked" type="radio">
+            Ik heb geen factuur nodig.<br>
+            <input class="workshop_wenst_u_een_factuur" name="workshop_wenst_u_een_factuur"
+                value="Ik heb wel een factuur nodig." type="radio">
+            Ik heb wel een factuur nodig.<br>
+            <input class="workshop_wenst_u_een_factuur" name="workshop_wenst_u_een_factuur"
+                value="Mijn werkgever zal betalen." type="radio">
+            Mijn werkgever zal betalen.<br>
+        </span>
+    </p>
+
+    <p id="em-booking-gateway" class="em-booking-gateway" style="display: block;">
+        <label>Betaal met</label>
+        <select name="gateway">
+            <option value="idealcheckoutcreditcard">Creditcard</option>
+            <option value="idealcheckoutminitix">Werkgever betaalt</option>
+            <option value="idealcheckoutmistercash">MisterCash</option>
+            <option value="idealcheckoutpaypal">PayPal</option>
+            <option value="idealcheckoutmastercard">Mastercard</option>
+        </select>
+    </p>
+</body>
+<script>
+    (function($) {
+  $('input[value="Ik heb geen factuur nodig."]').attr('checked',true);
+  $(".em-booking-gateway").css('display', 'block');
+  $("input[name='workshop_wenst_u_een_factuur']").click(function () {
+    $("option[value='idealcheckoutminitix']").css('display', ($(this).val() === 'Mijn werkgever zal betalen.') ? 'block' : 'none');
+  })
+})(jQuery);
+</script>
+
+</html>
